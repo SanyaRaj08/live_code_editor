@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JarSan</title>
+    <script src="https://kit.fontawesome.com/5497321b6f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="left">
+            <label> <i class="f fa-brands fa-html5"></i>HTML</label>
+            <textarea class="l" id="html_code" onkeyup="run()"></textarea>
+            <label> <i class="f fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea class="l" id="css_code" onkeyup="run()"></textarea>
+            <label> <i class="f fa-brands fa-js"></i>JS</label>
+            <textarea class="l" id="js_code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label> <i class="f fa-solid fa-play"></i>OUTPUT</label>
+            <iframe class="r" id="output_code" ></iframe>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
